@@ -14,11 +14,11 @@ Ce projet a été réalisé dans le cadre d'un module de Business Intelligence �
   - Dimensions : `DimCustomer`, `DimStore`, `DimProduct`, `DimDate`
 - **Sources** : Fichiers CSV (ventes), Excel (produits), JSON (taux de change), et base SQL (clients/magasins).
 
-![image](https://github.com/user-attachments/assets/1b629616-ac87-44d4-b044-6f78b07c3717)
+  >![image](https://github.com/user-attachments/assets/1b629616-ac87-44d4-b044-6f78b07c3717)
 
 
 ## Conception du Data Warehouse
-![image](https://github.com/user-attachments/assets/1b88db1e-9d1b-42ed-b864-141aee7d2bdf)
+ >![image](https://github.com/user-attachments/assets/1b88db1e-9d1b-42ed-b864-141aee7d2bdf)
 
 ## Processus ETL (SSIS)
 1. **Extraction** : Téléchargement des taux de change via API, lecture des fichiers CSV/Excel/SQL.
@@ -34,7 +34,7 @@ Ce projet a été réalisé dans le cadre d'un module de Business Intelligence �
   - Top 5 des produits performants.
 
   ### Dashboard développé :
-![image](https://github.com/user-attachments/assets/9db20d5b-453a-4ff9-a460-9e6d1bddfdfd)
+  >![image](https://github.com/user-attachments/assets/9db20d5b-453a-4ff9-a460-9e6d1bddfdfd)
 
 ## Automatisation
 - Exécution quotidienne via SQL Server Agent.
